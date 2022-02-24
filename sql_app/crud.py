@@ -18,7 +18,7 @@ from typing import Optional
 #     db.refresh(db_item)
 #     return db_item
 
-SECRET_KEY = "bfcaa24859af5279d4ec6c1de8f9d2624f6d819b020eba2bcd9fe0483af45ed3"
+SECRET_KEY = "0705fe9d903c526324c34f0fc0d2e503b7a5a71733cad42728950b98120d718b"
 ALGORITHM = "HS256"
 
 pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")

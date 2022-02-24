@@ -77,6 +77,7 @@ def create_post(
 ):
     user_id=current_user.id
 
+    #resimleri bulut ortamından çekiyoruz
     result = cloudinary.uploader.upload(file.file)
     url = result.get("url")
 
